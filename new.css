@@ -5,16 +5,16 @@ body {
     margin-left: 60%
   }
   .boss{
-    border-radius: 5px;
+    border-radius: 5rem;
   }
   hr{
-    margin-top: 20px;
+    margin-top: 20rem;
     color: rgba(255, 255, 255, 0.623);
   }
   .head{
       color: rgb(66, 66, 153);
-      margin-left: 13px;
-      font-size: 25px;
+      margin-left: 13rem;
+      font-size: 25rem;
   }
   .ok{
     margin-left: 70%;
@@ -31,26 +31,26 @@ body {
   }
   .header{
     width: 100%;
-    height: 380px;
+    height: 380rem;
     background-color: rgba(60, 26, 252, 0.829);
   }
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 200rem;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 20rem;
   }
   
   .sidenav a {
-    padding: 6px 8px 6px 16px;
-    margin-top: 13px;
+    padding: 6rem 8rem 6rem 16rem;
+    margin-top: 13rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 17rem;
     color: #5e5d5d;
     display: block;
   }
@@ -61,24 +61,24 @@ body {
   }
   
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    margin-left: 200rem; /* Same as the width of the sidenav */
+    font-size: 28rem; /* Increased text to enable scrolling */
+    padding: 0rem 10rem;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  @media screen and (max-height: 450rem) {
+    .sidenav {padding-top: 15rem;}
+    .sidenav a {font-size: 18rem;}
   }
   @media screen and (max-width: 1027px) {
     .btne{
       margin-left: 40%;
-      background-color: lightgreen;
+      
     }
   }
   @media screen and (max-width: 803px) {
     .btne{
       margin-left: 20%;
-      background-color: lightgreen;
+     
     }
   }
